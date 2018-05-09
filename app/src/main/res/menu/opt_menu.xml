@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuEmail"
+        android:title="Email Collection" />
+    <item
+        android:id="@+id/menuRecord"
+        android:title="Search Record" />
+    <item
+        android:id="@+id/menuReport"
+        android:title="Preview Report" />
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout" />
+</menu>

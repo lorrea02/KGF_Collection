@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="55"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvlAccNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Account No. :"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvlAccName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Account Name:"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvlBookID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Book ID: "
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvlBillMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Bill Month"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="45"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvlAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Amount"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvlPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Payment :"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvlCheckNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:padding="8dp"
+            android:text="Check No. :"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btlView"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:fontFamily="@font/montserrat"
+                android:text="View"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btlDelete"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:fontFamily="@font/montserrat"
+                android:text="Delete"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
